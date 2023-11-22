@@ -10,6 +10,8 @@ import gui.swing.img.Img;
 public class Labels {
 	public static void main(String[] args) {
 		
+		// Jlabel = a GUI dispaly area for a string of text, an image or both
+		
 		Label1 label = new Label1();
 		URL url = Img.class.getResource("icon.png");
 		ImageIcon icon = new ImageIcon(url);

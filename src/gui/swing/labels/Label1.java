@@ -14,16 +14,14 @@ import gui.swing.img.Img;
 public class Label1 extends JLabel{
 	
 	private static final long serialVersionUID = 1L;
-
-	Border border = BorderFactory.createLineBorder(new Color(0xf96153),3); //create a new border (color, width)
-	
-	// Jlabel = a GUI dispaly area for a string of text, an image or both
-	URL urlImg = Img.class.getResource("img.png");
-	ImageIcon icon = new ImageIcon(urlImg);
-	
 	
 	
 	public Label1() {
+	Border border = BorderFactory.createLineBorder(new Color(0xf96153),3); //create a new border (color, width)
+		
+	URL urlImg = Img.class.getResource("img.png");
+	ImageIcon icon = new ImageIcon(urlImg);
+		
 	this.setText("This is my first label"); //set text of label
 	this.setIcon(icon);
 	this.setHorizontalTextPosition(JLabel.CENTER); //set TEXT righ, center or left

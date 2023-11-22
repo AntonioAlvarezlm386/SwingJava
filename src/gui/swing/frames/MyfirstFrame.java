@@ -15,9 +15,11 @@ public class MyfirstFrame extends JFrame {
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	URL urlIcon = Img.class.getResource("icon.png");
+	
 	
 	public MyfirstFrame() {
+		URL urlIcon = Img.class.getResource("icon.png");
+		
 		this.setTitle("My first Java Frame");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
 		this.setResizable(false);	//prevent frame from being resize

@@ -14,7 +14,7 @@ public class Panels {
 	public static void main(String[] args) {
 		// JPanel: component that functions as a container to hod other components
 		
-		URL url = Img.class.getResource("Icon.png");
+		URL url = Img.class.getResource("icon.png");
 		ImageIcon icon = new ImageIcon(url);
 		
 		Label label1 = new Label();
@@ -31,6 +31,7 @@ public class Panels {
 		panel3.setBackground(new Color(0xf75167));
 		panel3.setBounds(0,150,300,150);
 		panel3.setLayout(null); // To apply setBounds method
+		panel3.add(label1);
 		
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -38,12 +39,10 @@ public class Panels {
 		frame.setSize(500,500);
 		frame.setIconImage(icon.getImage());
 		frame.setVisible(true);
-		panel3.add(label1);
 		
 		frame.add(panel1);
 		frame.add(panel2);
 		frame.add(panel3);
-		
 	}
 	
 	

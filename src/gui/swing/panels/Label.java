@@ -9,6 +9,10 @@ import gui.swing.img.Img;
 
 public class Label extends JLabel {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	URL url = Img.class.getResource("icon2.png");
 	ImageIcon panelIcon = new ImageIcon(url);
 	
