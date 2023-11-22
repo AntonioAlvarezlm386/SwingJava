@@ -6,13 +6,16 @@ import java.net.URL;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
+import gui.swing.img.Img;
+
+
 public class MyfirstFrame extends JFrame {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	URL urlIcon = MyfirstFrame.class.getResource("icon.png");
+	URL urlIcon = Img.class.getResource("icon.png");
 	
 	public MyfirstFrame() {
 		this.setTitle("My first Java Frame");

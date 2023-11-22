@@ -9,6 +9,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.border.Border;
 
+import gui.swing.img.Img;
+
 public class Label1 extends JLabel{
 	
 	private static final long serialVersionUID = 1L;
@@ -16,7 +18,7 @@ public class Label1 extends JLabel{
 	Border border = BorderFactory.createLineBorder(new Color(0xf96153),3); //create a new border (color, width)
 	
 	// Jlabel = a GUI dispaly area for a string of text, an image or both
-	URL urlImg = Labels.class.getResource("img.jpg");
+	URL urlImg = Img.class.getResource("img.png");
 	ImageIcon icon = new ImageIcon(urlImg);
 	
 	
