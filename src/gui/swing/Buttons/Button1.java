@@ -12,6 +12,11 @@ import gui.swing.img.Img;
 
 public class Button1 extends JButton{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public Button1() {
 		URL url = Img.class.getResource("icon.png");
 		ImageIcon icon = new ImageIcon(url);
