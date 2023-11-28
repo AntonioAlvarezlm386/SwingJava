@@ -40,8 +40,36 @@ public class Main {
 		panel3.setPreferredSize(new Dimension(100,100));
 		panel4.setBackground(new Color(0x799351));
 		panel4.setPreferredSize(new Dimension(100,100));
+		panel4.setLayout(new BorderLayout(10,10));
+		
 		panel5.setBackground(new Color(0xea906c));
 		panel5.setPreferredSize(new Dimension(100,100));
+		
+		
+		/* Subpanels------------------------------------*/
+		JPanel panel6 = new JPanel();
+		JPanel panel7 = new JPanel();
+		JPanel panel8 = new JPanel();
+		JPanel panel9 = new JPanel();
+		JPanel panel10 = new JPanel();
+		
+		panel6.setBackground(new Color(0x192655));
+		panel6.setPreferredSize(new Dimension(50,50));
+		panel7.setBackground(new Color(0x3876bf));
+		panel7.setPreferredSize(new Dimension(50,50));
+		panel8.setBackground(new Color(0xe1aa74));
+		panel8.setPreferredSize(new Dimension(50,50));
+		panel9.setBackground(new Color(0xf3f0ca));
+		panel9.setPreferredSize(new Dimension(50,50));
+		panel10.setBackground(new Color(0x222222));
+		panel10.setPreferredSize(new Dimension(50,50));
+		
+		panel4.add(panel6, BorderLayout.NORTH);
+		panel4.add(panel7, BorderLayout.SOUTH);
+		panel4.add(panel8, BorderLayout.WEST);
+		panel4.add(panel9, BorderLayout.EAST);
+		panel4.add(panel10, BorderLayout.CENTER);
+		
 		
 		frame.add(panel1, BorderLayout.NORTH);
 		frame.add(panel2, BorderLayout.WEST);
