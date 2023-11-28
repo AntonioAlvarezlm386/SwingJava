@@ -23,7 +23,7 @@ public class Main {
 		frame.setSize(500, 500);
 		frame.setVisible(true);
 		frame.setTitle("Border Layout");
-		frame.setLayout(new BorderLayout(10,0));		// to implement borderLayout and borders between panels
+		frame.setLayout(new BorderLayout(10,0));		// to implement borderLayout and borders between panels. BorderLayout is the default property
 		
 		JPanel panel1 = new JPanel();
 		JPanel panel2 = new JPanel();
